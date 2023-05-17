@@ -1,10 +1,9 @@
 import React from 'react'
 
-export default function TimeTable() {
+export default function Gallery() {
   return (
     <div className='container'>
-        <h2>Time Table</h2>
-        <hr />
+        <h2>Gallery</h2>
     </div>
   )
 }
