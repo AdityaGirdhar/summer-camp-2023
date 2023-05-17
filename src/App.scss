@@ -17,8 +17,22 @@ p {
 img.logo-img {
   width: 60%;
   max-width: 300px;
-  display: block;
-  margin: 30px auto;
+}
+
+.header {
+  display: flex;
+  margin: 25px 30px;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 770px) {
+    flex-direction: column;
+  }
+  .links {
+    color: rgb(53, 53, 53);
+    @media screen and (max-width: 770px) {
+      margin-top: 14px;
+    } 
+  }
 }
 
 .container {
@@ -32,6 +46,10 @@ img.logo-img {
     margin: auto;
     max-width: 700px;
     margin-top: 50px;
+  }
+
+  img.down-arrow {
+    width: 20px;
   }
 
   img.atishi-image {
@@ -100,5 +118,11 @@ hr {
     margin: 5px;
     font-size: 0.8rem;
     text-align: right;
+    @media screen and (max-width: 770px) {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 770px) {
+    flex-direction: column;
   }
 }
