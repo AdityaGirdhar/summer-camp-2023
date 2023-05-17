@@ -5,6 +5,7 @@ import Landing from './components/Landing';
 import Opening from './components/Opening';
 import Activities from './components/Activities';
 import Subjects from './components/Subjects';
+import TimeTable from './components/TimeTable';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Opening />
       <Activities />
       <Subjects />
+      <TimeTable />
     </div>
   );
 }
