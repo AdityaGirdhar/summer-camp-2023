@@ -4,6 +4,7 @@ import './App.scss';
 import Landing from './components/Landing';
 import Opening from './components/Opening';
 import Activities from './components/Activities';
+import Subjects from './components/Subjects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Landing />
       <Opening />
       <Activities />
+      <Subjects />
     </div>
   );
 }
