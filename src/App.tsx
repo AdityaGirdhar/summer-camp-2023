@@ -8,10 +8,13 @@ import Subjects from './components/Subjects';
 import TimeTable from './components/TimeTable';
 import Gallery from './components/Gallery';
 import Team from './components/Team';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Landing />
       <Opening />
       <Activities />
@@ -19,6 +22,7 @@ function App() {
       <TimeTable />
       <Gallery />
       <Team />
+      <Footer />
     </div>
   );
 }
