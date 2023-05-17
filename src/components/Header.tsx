@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import logo from '../assets/logo.svg'
 
 export default function Header() {

@@ -17,11 +17,17 @@ function App() {
       <Header />
       <Landing />
       <Opening />
-      <Activities />
+      <div id='activities'>
+        <Activities />
+      </div>
       <Subjects />
-      <TimeTable />
+      <div id='schedule'>
+        <TimeTable />
+      </div>
       <Gallery />
-      <Team />
+      <div id='team'>
+        <Team />
+      </div>
       <Footer />
     </div>
   );
