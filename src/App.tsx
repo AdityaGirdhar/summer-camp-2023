@@ -7,6 +7,7 @@ import Activities from './components/Activities';
 import Subjects from './components/Subjects';
 import TimeTable from './components/TimeTable';
 import Gallery from './components/Gallery';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Subjects />
       <TimeTable />
       <Gallery />
+      <Team />
     </div>
   );
 }
