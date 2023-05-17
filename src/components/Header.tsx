@@ -5,7 +5,11 @@ export default function Header() {
   return (
     <div className='header'>
         <img src={logo} alt="logo" className='logo-img' />
-        <div className='links'>Links</div>
+        <div className='links'>
+            <a href="">Activities</a>
+            <a href="">Schedule</a>
+            <a href="">Team</a>
+        </div>
     </div>
   )
 }
