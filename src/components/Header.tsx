@@ -7,9 +7,9 @@ export default function Header() {
     <div className='header'>
         <img src={logo} alt="logo" className='logo-img' />
         <div className='links'>
-            <a href="">Activities</a>
-            <a href="">Schedule</a>
-            <a href="">Team</a>
+            <Link smooth={true} to="activities">Activities</Link>
+            <Link smooth={true} to="schedule">Schedule</Link>
+            <Link smooth={true} to="team">Team</Link>
         </div>
     </div>
   )
