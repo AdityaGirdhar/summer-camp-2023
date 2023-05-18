@@ -23,7 +23,7 @@ function App() {
       <div id='schedule'>
         <TimeTable />
       </div>
-      <Gallery />
+      {/* <Gallery /> */}
       <div id='team'>
         <Team />
       </div>

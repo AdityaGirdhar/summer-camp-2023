@@ -7,7 +7,15 @@ export default function Team() {
     <div className='container'>
         <h2>Meet the Team</h2>
         <div className='cards-grid'>
-            <Card image={atishiImage} title="Name" content="designation"/>
+            <Card image={atishiImage} title="Ashutosh Bramha" content="ashutosh@iiitd.ac.in" content2="+91 82876 16775"/>
+        </div>
+        <h4>Coordinators</h4>
+        <div className='cards-grid'>
+            <Card image={atishiImage} title="Ashutosh Bramha" content="ashutosh@iiitd.ac.in" content2="+91 82876 16775"/>
+            <Card image={atishiImage} title="Ashutosh Bramha" content="ashutosh@iiitd.ac.in" content2="+91 82876 16775"/>
+            <Card image={atishiImage} title="Ashutosh Bramha" content="ashutosh@iiitd.ac.in" content2="+91 82876 16775"/>
+            <Card image={atishiImage} title="Ashutosh Bramha" content="ashutosh@iiitd.ac.in" content2="+91 82876 16775"/>
+            <Card image={atishiImage} title="Ashutosh Bramha" content="ashutosh@iiitd.ac.in" content2="+91 82876 16775"/>
         </div>
     </div>
   )

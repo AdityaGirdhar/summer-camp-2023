@@ -71,6 +71,13 @@ img.logo-img {
     margin-top: 50px;
   }
 
+  img.time-table {
+    width: 100%;
+    max-width: 900px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+  }
+
   img.down-arrow {
     width: 20px;
     animation: oscillate 2s infinite;
@@ -112,18 +119,19 @@ hr {
 .card {
   width: 300px;
   box-shadow: 0px 5px 25px 0.5px rgb(110, 110, 110, 0.25);
-  border-radius: 20px;
+  border-radius: 15px;
   margin: 30px 25px;
   img {
     width: 100%;
     aspect-ratio: 1;
     margin-top: 0;
+    border-radius: 10px;
   }
   h5 {
     padding-bottom: 25px;
   }
   p {
-    margin-top: -25px;
+    margin-top: -30px;
     padding-bottom: 25px;
   }
 }
