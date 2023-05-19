@@ -15,6 +15,7 @@ export default function Opening() {
         <p>GNCT of Delhi</p>
         <br />
         <p className='p-em'>Join us on <strong>May 22, 2023</strong> at IIIT-Delhi campus!</p> */}
+        <br /> <br /> <br />
         <hr />
     </div>
   )
