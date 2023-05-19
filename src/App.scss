@@ -22,8 +22,17 @@ h1, h2, h3, h4, h5 {
   text-align: center;
 }
 
+h2 {
+  @media screen and (max-width: 770px) {
+    font-size: 1.1rem;
+  }
+}
+
 p {
   font-family: 'Poppins', sans-serif;
+  @media screen and (max-width: 770px) {
+    font-size: 0.9rem;
+  }
 }
 
 img.logo-img {
@@ -117,6 +126,9 @@ img.logo-img {
 p.p-em {
   font-size: 1.3rem;
   margin: 15px auto;
+  @media screen and (max-width: 770px) {
+    font-size: 1rem;
+  }
 }
 
 hr {
@@ -160,6 +172,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  padding-bottom: 30px;
   margin-top: 50px;
   .gray {
     color: rgba(255, 255, 255, 0.6);
@@ -171,6 +184,7 @@ hr {
     text-align: right;
     @media screen and (max-width: 770px) {
       text-align: center;
+      font-size: 0.6rem;
     }
   }
   @media screen and (max-width: 770px) {

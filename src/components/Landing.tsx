@@ -7,6 +7,7 @@ import arrow from '../assets/arrow.svg'
 export default function Landing() {
   return (
     <div className='container'>
+        <img src="https://sc.iiitd.ac.in/sites/default/files/images/logo/style3colormid.jpg" alt="" style={{maxWidth: '350px', marginBottom: '-10px'}}/>
         <img src={hero1} alt="Delhi Education Reimagined" />
         <img src={hero2} alt="Children playing and studying" />
         <Link to='about' smooth={true} offset={-36}>
