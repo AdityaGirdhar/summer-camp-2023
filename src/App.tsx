@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.scss';
 import Landing from './components/Landing';
 import Opening from './components/Opening';
@@ -11,6 +13,9 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className="App">
       <Header />

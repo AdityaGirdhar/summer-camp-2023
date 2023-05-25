@@ -7,9 +7,9 @@ import arrow from '../assets/arrow.svg'
 export default function Landing() {
   return (
     <div className='container'>
-        <img src="https://sc.iiitd.ac.in/sites/default/files/images/logo/style3colormid.jpg" alt="" style={{maxWidth: '350px', marginBottom: '-10px'}}/>
-        <img src={hero1} alt="Delhi Education Reimagined" />
-        <img src={hero2} alt="Children playing and studying" />
+        <img src="https://sc.iiitd.ac.in/sites/default/files/images/logo/style3colormid.jpg" alt="" style={{maxWidth: '350px', marginBottom: '-10px'}} data-aos="fade-up" data-aos-duration="1000" />
+        <img src={hero1} alt="Delhi Education Reimagined" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" />
+        <img src={hero2} alt="Children playing and studying" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
         <Link to='about' smooth={true} offset={-36}>
           <img src={arrow} alt="down-arrow" className='down-arrow'/>
         </Link>
